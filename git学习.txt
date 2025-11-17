@@ -1,0 +1,21 @@
+1、当前路径下初始化为git仓库：
+git init
+2、文件添加到仓库：
+git add text.txt
+3、提交文件到仓库：
+git commit -m "注释"
+4、查看历史版本：
+git log
+5、回退版本：
+git reset --hard HEAD^
+6、查看当前状态：
+git status
+7、撤销修改：
+git checkout -- text.txt
+8、删除文件：
+rm text.txt
+9、确实要删除
+git rm text.txt
+git commit
+10、创建ssh秘钥
+ssh-keygen -t rsa -C "youremail@example.com"
