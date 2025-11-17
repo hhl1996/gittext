@@ -28,4 +28,4 @@ git config --global --unset https.proxy
 git config --global  http.proxy  http://127.0.0.1:1080
 
 13、查看代理
-git config --global -l
+git config --global -l   ppppppppppp
