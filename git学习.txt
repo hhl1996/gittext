@@ -29,6 +29,7 @@ git config --global --unset https.proxy
 git config --global  http.proxy  http://127.0.0.1:1080
 
 13、查看代理
+<<<<<<< HEAD
 git config --global -l
 
 14、下载仓
@@ -38,3 +39,6 @@ git clone https://github.com/hhl1996/gittext
 git remote -v
 16、删除远程仓
 git remote rm origin(远程名)
+=======
+git config --global -l   ppppppppppp
+>>>>>>> 7355b91c96f2548b07d357b2e421efe0d351e897
