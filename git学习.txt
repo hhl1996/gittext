@@ -39,6 +39,12 @@ git clone https://github.com/hhl1996/gittext
 git remote -v
 16、删除远程仓
 git remote rm origin(远程名)
-=======
-git config --global -l   ppppppppppp
->>>>>>> 7355b91c96f2548b07d357b2e421efe0d351e897
+
+17、合并
+git pull
+
+18、标签 （本地）
+git tag v1.0
+
+19、操作标签
+git push origin v1.0
