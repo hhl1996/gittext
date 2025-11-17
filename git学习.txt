@@ -16,6 +16,7 @@ git checkout -- text.txt
 rm text.txt
 9、确实要删除
 git rm text.txt
+9.5、 提交确认
 git commit
 10、创建ssh秘钥
 ssh-keygen -t rsa -C "youremail@example.com"
@@ -29,3 +30,11 @@ git config --global  http.proxy  http://127.0.0.1:1080
 
 13、查看代理
 git config --global -l
+
+14、下载仓
+git clone https://github.com/hhl1996/gittext
+
+15、查看当前远程仓
+git remote -v
+16、删除远程仓
+git remote rm origin(远程名)
